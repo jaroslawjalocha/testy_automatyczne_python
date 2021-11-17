@@ -1,7 +1,7 @@
 import time
 
 import pytest
-from Page_Object_Pattern.Pages.register import RegisterToPage
+from Pages.register import RegisterToPage
 
 
 
