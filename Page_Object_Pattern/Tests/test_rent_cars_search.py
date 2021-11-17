@@ -1,5 +1,5 @@
 import pytest
-from Page_Object_Pattern.Pages.search_cars import SearchCarsPage
+from Pages.search_cars import SearchCarsPage
 
 
 
