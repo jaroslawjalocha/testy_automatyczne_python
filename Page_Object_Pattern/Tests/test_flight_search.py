@@ -1,8 +1,8 @@
 import time
 
 import pytest
-from Page_Object_Pattern.Pages.search_flight import SearchFlightPage
-from Page_Object_Pattern.Pages.search_results_flight import SearchResultsFlightPage
+from Pages.search_flight import SearchFlightPage
+from Pages.search_results_flight import SearchResultsFlightPage
 
 
 @pytest.mark.usefixtures("setup")
