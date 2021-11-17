@@ -1,7 +1,7 @@
 import time
 
 import pytest
-from Page_Object_Pattern.Pages.search_tourist import SearchTouristPage
+from Pages.search_tourist import SearchTouristPage
 
 
 
