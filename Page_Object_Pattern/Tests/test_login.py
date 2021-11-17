@@ -1,7 +1,7 @@
 import time
 
 import pytest
-from Page_Object_Pattern.Pages.login import LoginToPage
+from Pages.login import LoginToPage
 
 
 
