@@ -1,6 +1,6 @@
 import pytest
-from Page_Object_Pattern.Pages.search_hotel import SearchHotelPage
-from Page_Object_Pattern.Pages.search_results import SearchResultsPage
+from Pages.search_hotel import SearchHotelPage
+from Pages.search_results import SearchResultsPage
 
 
 
