@@ -17,4 +17,4 @@ class TestFlightSearch():
         search_tourist_page.set_passenger("4")
         search_tourist_page.set_type_of_trip("Private")
         search_tourist_page.perform_search()
-        time.sleep(1000)
+        time.sleep(1)
