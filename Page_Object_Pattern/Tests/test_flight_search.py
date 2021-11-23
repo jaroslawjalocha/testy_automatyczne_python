@@ -20,7 +20,7 @@ class TestFlightSearch():
         flight_number = results_page.get_flight_number()
         price_values = results_page.get_flight_prices()
 
-        assert flight_number[0] == '675'
+        assert flight_number[0] == '800'
         assert flight_number[1] == '887'
         assert flight_number[2] == '859'
         assert flight_number[3] == '578'
