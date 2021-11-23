@@ -14,7 +14,7 @@ class TestFlightSearch():
         search_flight_page = SearchFlightPage(self.driver)
         search_flight_page.set_city("Warsaw","Dubai")
         search_flight_page.set_date("2021-10-26")
-        search_flight_page.set_passenger("5")
+        search_flight_page.set_passenger("6")
         search_flight_page.perform_search()
         results_page = SearchResultsFlightPage(self.driver)
         flight_number = results_page.get_flight_number()
